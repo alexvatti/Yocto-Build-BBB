@@ -3,11 +3,18 @@ Yocto Build Steps for Beagle Bone Black
 
 # Build Steps
 git clone -b dunfell git://git.yoctoproject.org/poky.git poky-dunfell
+
+
 cd poky-dunfell
+
 git clone -b dunfell git://git.openembedded.org/meta-openembedded
+
 git clone -b dunfell https://github.com/meta-qt5/meta-qt5.git
+
 git clone -b dunfell git://git.yoctoproject.org/meta-security.git
+
 git clone -b dunfell https://github.com/jumpnow/meta-jumpnow.git
+
 git clone -b dunfell https://github.com/jumpnow/meta-bbb.git
 
 # Change 1:
