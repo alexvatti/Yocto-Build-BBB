@@ -19,14 +19,23 @@ git clone -b dunfell https://github.com/jumpnow/meta-bbb.git
 
 # Change 1:
 poky-dunfell$ git diff
+
 diff --git a/.templateconf b/.templateconf
+
 index 0fe6f82503..e381111443 100644
+
 --- a/.templateconf
+
 +++ b/.templateconf
+
 @@ -1,2 +1,2 @@
+
 # Template settings
+
 -TEMPLATECONF=${TEMPLATECONF:-meta-poky/conf}
+
 +TEMPLATECONF=${TEMPLATECONF:-meta-bbb/conf}
+
 
 # Change 2:
 $ cd meta-bbb
